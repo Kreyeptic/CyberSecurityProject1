@@ -3,7 +3,8 @@ Creating ELK Stack Server
 
 
 
-![Network_Diagram](https://user-images.githubusercontent.com/40638009/138609871-0b9ba8d3-f896-467d-86a5-024c3b1e9c88.png)
+![Network Diagram](https://user-images.githubusercontent.com/40638009/138611278-57379e9a-9a3c-4eb5-887f-bd958d59234a.png)
+
 
 
 The files below have personally been tested and used to build a ELK web server on Azure. 
