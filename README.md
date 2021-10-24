@@ -32,7 +32,7 @@ Metricbeat records metrics and statistical data from the operating system and fr
 
 The configuration details of each machine may be found below.
 
--| Name       | Function   | IP Address | Operating System |
+| Name       | Function   | IP Address | Operating System |
 |------------|------------|------------|------------------|
 | Jump Box   | Gateway    | 10.0.0.4   | Linux            |
 | Web-1      | Web Server | 10.0.0.5   | Linux            |
@@ -51,11 +51,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
-* Personal IP Address
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 Machines within the network can only be accessed by SSH.
 * The ELK-Server is only accessible by SSH from the JumpBox and via web access from Personal IP Address.
 
@@ -76,7 +72,7 @@ Machines within the network can only be accessed by SSH.
 
 ### Elk Configuration
 
-@ -72,9 +72,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration
+Ansible was used to automate configuration of the ELK machine. No configuration
 physically touch each server.
 
 The playbook implements the following tasks:
@@ -88,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(https://user-images.githubusercontent.com/40638009/138609065-bd3435c3-4c79-49a6-acb4-5d4532fc26a2.png)
+![Docker  Intelligent_ellis](https://user-images.githubusercontent.com/40638009/138609260-49cf7d50-6e3c-4815-a146-fd5d42926ac1.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -100,6 +96,4 @@ We have installed the following Beats on these machines:
 * Metricbeat!
 
 
-These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 
