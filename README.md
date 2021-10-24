@@ -80,9 +80,7 @@ Machines within the network can only be accessed by SSH.
 physically touch each server.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+
 1. Install Docker.io and pip3
 2. Increases VM memory
 3. Download and Configure elk docker container
@@ -90,16 +88,14 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Docker  Intelligent_ellis](https://user-images.githubusercontent.com/40638009/138609065-bd3435c3-4c79-49a6-acb4-5d4532fc26a2.png)
+(https://user-images.githubusercontent.com/40638009/138609065-bd3435c3-4c79-49a6-acb4-5d4532fc26a2.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
 * Web-1 10.0.0.5
 * Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
 * Filebeat
 * Metricbeat!
 
